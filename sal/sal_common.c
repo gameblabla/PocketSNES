@@ -13,6 +13,10 @@ which is a pain in the ass especially as I'm always changing things
 #include <png.h>
 #include <unzip.h>
 #include <zip.h>
+#include <unistd.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <dirent.h>
 
 #include "sal_common.h"
 

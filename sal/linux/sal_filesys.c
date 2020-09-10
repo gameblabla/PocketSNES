@@ -1,9 +1,12 @@
+#include <stdio.h>
 #include <string.h>
+#include <unistd.h>
 //#include <error.h>
 #include <sys/stat.h>
 #include <sys/types.h>
 #include <dirent.h>
 #include "sal.h"
+
 
 s32 sal_DirectoryGetCurrent(s8 *path, u32 size)
 {

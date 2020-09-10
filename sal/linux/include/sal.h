@@ -5,6 +5,10 @@
 extern "C" {
 #endif
 
+#ifndef PATH_MAX
+#define PATH_MAX 2048
+#endif
+
 #ifdef __DINGUX__
 #define SAL_INPUT_INDEX_UP			20
 #define SAL_INPUT_INDEX_DOWN			27
